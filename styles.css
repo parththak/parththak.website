@@ -22,9 +22,13 @@ footer {
 .description {
     text-align: left;
     color: whitesmoke;
-    width: 100%;
-    margin-top: 20%;
-    padding: 0.5%;
+    width: 30%;
+    margin-top: 5%;
+    padding: 1%;
     height: 50%;
     position: absolute;
+}
+
+img.profile {
+    border-radius: 50%;
 }
