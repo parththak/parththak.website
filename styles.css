@@ -21,7 +21,9 @@ footer {
 .description {
     text-align: left;
     color: whitesmoke;
-    width: 30%;
+    align-content: center;
+    margin-left:30%;
+    margin-right:30%; 
     margin-top: 5%;
     padding: 1%;
     height: 50%;
