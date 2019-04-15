@@ -1,6 +1,5 @@
 body {
     
-    background-color: #63BBFF;
     background-image: url(./pics/mountain.jpg);
     background-attachment: scroll;
     background-size: 100%;
@@ -14,9 +13,9 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #4D7298;
+    background-color: #C4CAD0;
     padding: 1ch;
-    color: whitesmoke;
+    color: black;
 }
 
 .description {
