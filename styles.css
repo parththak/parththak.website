@@ -1,35 +1,56 @@
 body {
     
-    background-image: url(./pics/mountain.jpg);
+    background-color: #f3f9fb;
     background-attachment: scroll;
     background-size: 100%;
     overflow-y: scroll;
-    
+    /*background-image: url(./pics/mountain.jpg);*/
   }
 
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     background-color: #C4CAD0;
-    padding: 1ch;
     color: black;
+    overflow: hidden;
+}
+section { height:100%;}
+
+
+.navstyle {
+    background-color: #f3f9fb; 
+    box-shadow: 2px 5px 4px #888888; 
+    padding: 0%";
 }
 
 .description {
-    text-align: left;
-    color: whitesmoke;
+    color: black;
+    margin-top: 10%;
+    /*box-shadow: 5px 10px 8px #888888;*/ 
     align-content: center;
-    margin-left:30%;
-    margin-right:30%; 
-    margin-top: 5%;
-    padding: 1%;
-    height: 50%;
-    position: absolute;
+    font-family: Rockwell;
+    position: relative;
+    margin-bottom: 11%;
 }
 
-img.profile {
+.profile {
     border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
+
+.scroll-button{
+    background-color: transparent;
+    border: none;
+}
+
+.wrapper {
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    
 }
