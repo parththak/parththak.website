@@ -1,10 +1,12 @@
-body {
+html,body {
     
     background-color: #f3f9fb;
     background-attachment: scroll;
     background-size: 100%;
     overflow-y: scroll;
     /*background-image: url(./pics/mountain.jpg);*/
+    height:100%;
+    width:100%;
   }
 
 footer {
@@ -17,11 +19,15 @@ footer {
     color: black;
     overflow: hidden;
 }
-section { height:100%;}
+section { 
+    height:90%;
+    width:100%;
+    position: relative;
+}
 
 
 .navstyle {
-    background-color: #f3f9fb; 
+    background-color: black; 
     box-shadow: 2px 5px 4px #888888; 
     padding: 0%";
 }
@@ -33,13 +39,24 @@ section { height:100%;}
     align-content: center;
     font-family: Rockwell;
     position: relative;
-    margin-bottom: 11%;
 }
 
 .profile {
     border-radius: 50%;
     width: 20%;
     height: 20%;
+    margin-top: 10%;
+}
+
+.profile-title {
+    align-content: center;
+    font-family: Rockwell;
+}
+
+.profile-description {
+    
+    font-family: Rockwell;
+
 }
 
 .scroll-button{
@@ -50,7 +67,19 @@ section { height:100%;}
 .wrapper {
     text-align: center;
     position: relative;
-    left: 0;
     bottom: 0;
-    
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 25%
+}
+
+
+.name {
+    background-color: #f3f9fb;
+}
+
+.nav-name {
+    color: white; 
+    font-size: 175%
 }
