@@ -7,7 +7,6 @@ html,body {
     /*background-image: url(./pics/mountain.jpg);*/
     height:100%;
     width:100%;
-    
     scroll-behavior: smooth;
   }
 
@@ -26,6 +25,14 @@ section {
     width:100%;
     position: relative;
 }
+
+.projects { 
+    height:100%;
+    width:100%;
+    position: relative;
+}
+
+
 
 
 .navstyle {
@@ -47,7 +54,7 @@ section {
     border-radius: 50%;
     width: 20%;
     height: 20%;
-    margin-top: 10%;
+    margin-top: 10%
 }
 
 .profile-title {
@@ -68,12 +75,10 @@ section {
 
 .wrapper {
     text-align: center;
-    position: relative;
+    position: absolute;
     bottom: 0;
-    height: 100%;
     overflow: hidden;
-    width: 100%;
-    margin-top: 25%
+    width: 60%;
 }
 
 
