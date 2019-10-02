@@ -35,6 +35,7 @@ section {
 .experience { 
     max-height:100%;
     max-width:100%;
+    width: auto;
     position: relative;
 }
 
@@ -59,21 +60,25 @@ section {
 
 .profile {
     border-radius: 50%;
-    width: 20%;
-    height: 20%;
-    margin-top: 10%;
-    text-align: center;
-    margin-bottom: 2%
+    object-fit: fill;
+    max-width: 400px;
+    max-height: 300px;
+    width: auto;
+    height:auto;
+    margin-top: 5%;
+    margin-bottom: 1%
 }
 
 .profile-title {
-    align-content: center;
     font-family: Rockwell;
+    font-size:75px;
+    
 }
 
 .profile-description {
-    
     font-family: Rockwell;
+    font-size: 25px;
+   
 
 }
 
@@ -104,4 +109,8 @@ button:focus {
 .nav-name {
     color: white; 
     font-size: 175%
+}
+
+.name {
+    text-align: center;
 }
