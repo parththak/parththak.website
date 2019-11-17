@@ -8,6 +8,7 @@ html,body {
     height:100%;
     width:100%;
     scroll-behavior: smooth;
+    position: fixed;
   }
 
 footer {
@@ -18,28 +19,26 @@ footer {
     text-align: center;
     background-color: #C4CAD0;
     color: black;
-    overflow: hidden;
-}
-section { 
-    height:90%;
-    width:100%;
-    position: relative;
 }
 
+
 .projects { 
-    height:100%;
-    width:100%;
-    position: relative;
+    min-height:100%;
+    min-width:100%;
+    width: auto;
+    height: auto;
+   
+    min-height: 100vh;
 }
 
 .experience { 
-    max-height:100%;
-    max-width:100%;
+    min-height:100%;
+    min-width:100%;
     width: auto;
-    position: relative;
+    height: auto;
+    overflow: hidden;
+    min-height: 100vh;
 }
-
-
 
 
 .navstyle {
@@ -78,16 +77,17 @@ section {
 .profile-description {
     font-family: Rockwell;
     font-size: 25px;
-   
-
 }
 
 .scroll-button{
     background-color: transparent;
-    border: none;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 1%;
+    border: none; 
+    overflow: hidden;
+    max-width: 400px;
+    max-height: 300px;
+    width: auto;
+    height:auto;
+    text-align: center
 }
 
 button:focus {
@@ -96,21 +96,21 @@ button:focus {
 
 .wrapper {
     text-align: center;
-    overflow: hidden;
-    margin-right: 5%;
-    
+    bottom: 0%;
+    width: 100%;
 }
 
 
 .name {
     background-color: #f3f9fb;
+    text-align: center;
+    
+    min-height:100%;
+    min-width:100%;
+    
 }
 
 .nav-name {
     color: white; 
     font-size: 175%
-}
-
-.name {
-    text-align: center;
 }
