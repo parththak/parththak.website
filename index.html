@@ -8,7 +8,7 @@
     <title>Parth Thakkar</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="icon" href="./pics/favicon-96x96.png">
+    <link rel="icon" href="./assets/favicon-96x96.png">
     <link rel= "stylesheet" href="styles.css">
     <script src= "./jscript.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -23,15 +23,15 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item" style="margin-right:10%; ">
               <a class="navbar-brand" target="_blank" href="https://github.com/parththak"> 
-              <img src="/pics/newgithub.svg" width="32" height="32" class="d-inline-block align-auto" alt=""></a>
+              <img src="/assets/newgithub.svg" width="32" height="32" class="d-inline-block align-auto" alt=""></a>
             </li>
             <li class="nav-item" style="margin-right:10%;">
                 <a class="navbar-brand" target="_blank" href="https://www.linkedin.com/in/parththak/"> 
-                <img src="/pics/newlinkedin.svg" width="32" height="32" class="d-inline-block align-auto" alt=""></a>
+                <img src="/assets/newlinkedin.svg" width="32" height="32" class="d-inline-block align-auto" alt=""></a>
             </li>
             <li class="nav-item" style="margin-right:10%; border: white;">
                 <a class="navbar-brand" target="_blank" href="mailto:parth.thakkar@mail.utoronto.ca"> 
-                <img src="/pics/outlook.svg" width="32" height="32" class="d-inline-block align-auto" alt=""></a>
+                <img src="/assets/outlook.svg" width="32" height="32" class="d-inline-block align-auto" alt=""></a>
             </li>
           </ul>
           <span class="navbar-text" style="margin-right:1%;">
@@ -57,20 +57,20 @@
 
     <div class="wrapper">
     <button class="scroll-button" type= "button" id="scroller">
-            <img src="./pics/scroll.svg" width="60" height="60" >
+            <img src="./assets/scroll.svg" width="60" height="60" >
         </button>
     </div>
 </section> --->
 
 <section class="name">
-    <center><img  class="profile"  src="./pics/profile.jpg"></center>
+    <center><img  class="profile"  src="./assets/profile.jpg"></center>
     <h1 class="profile-title"> Hi, I'm Parth</h1>
     <p1 class="profile-description"> Software Engineer.</p1> <br>
     <p1 class="profile-description"> Front-end / Back-end / Machine-Learning</p1><br>
 
     <div class="wrapper">
-        <button class="scroll-button" type= "button" id="project-scroller">
-                <img src="./pics/scroll.svg" width="60" height="60" >
+        <button class="scroll-button" type= "button" id="exp-scroller">
+                <img src="./assets/scroll.svg" width="60" height="60" >
             </button>
     </div>
 
@@ -78,7 +78,58 @@
 
 </section>
 
+<section>
+    <div class="container experience">
+        <div class="row-fluid">
+            <div class="col-fluid"><center>
+                <center><h1>Experience</h1></center>
+            </div>
+        </div>
+        <div class="col-fluid"> 
+            <!---<img src="./assets/cibc-colour.png" width="100" height="90"> --->
+            <br>
+            <h3>CIBC </h3>
+            <h4>Software Developer Co-op</h4>
+            <ul>
+                <li>Developed Informatica transformations and SQL queries to manipulate data and use the ETL process to load the data into a target table to allow the data to be documented.</li>
+                <li>Constructed flowcharts to plan and document workflows of different applications and allow forthe processes to be developed and implemented. </li>
+                <li>Documented Autosys jobs to provide a detailed overview of the files affected and the box jobs to allow team members to easily access the job flows and implement them.</li>
 
+            </ul>
+            <br>
+        </div>
+
+        <div class="col-fluid"> 
+            <!--<img src="./assets/ifds.png" width="200" height="120"> --->
+            <br>
+            <h2>IFDS</h2>
+            <h4>Software Developer Co-op</h4>
+            <ul>
+                <li>Managed changes and fixed defects using JBoss IDE for a Java and AngularJS web application for several different clients. </li>
+                <li>Tested and deployed server-based web application using Jenkins automation server and managed repositories using JIRA project management tool and git version control. </li>
+                <li>Updated the back-end database with new client information by adding and modifying columns using MySQL Workbench application.</li>
+
+            </ul>
+
+            <br>
+        </div>
+
+        <div class="col-fluid"> 
+            <!--<img src="./assets/architech.png" width="100" height="100">--->
+            <br>
+            <h3>Architech</h3>
+            <h4>Software Engineer Co-op</h4>
+            <ul>
+                <li>Currently working with Dialogflow, Firebase and nodejs to implement a voice and text-based conversational interface for Google Home. </li>
+                <li>Utilized MongoDB to store and update userinformation for a React web application using Nodejs environment and docker containerization. </li>
+                <li>Participated in agile artifacts ,such as sprint planning and sprintretrospect, and completed bi-weekly sprints to successfully add several new features to the Google Home VUI.</li>
+
+            </ul>
+            <br>
+        </div>
+
+    </div>
+ </section>
 
 <section>
     <div class="container projects">
@@ -86,31 +137,26 @@
             <div class="col-fluid"><center>
                 <center><h1>Projects</h1></center>
                 </div>
-             <div class="col-fluid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas augue libero, lacinia sed consectetur nec, tempus mattis lorem. Vestibulum posuere nisl lacinia massa tempus, auctor auctor tellus egestas. Fusce dignissim tortor elit, vel lobortis nulla ultrices sit amet. Quisque dui nunc, vestibulum ut tellus at, interdum posuere leo. In posuere ex ut pharetra vestibulum. Pellentesque ut semper erat. Nam sit amet augue justo. Sed eu mauris vitae erat finibus bibendum. Sed at diam et tellus fermentum aliquam non sed diam. Donec faucibus molestie rutrum. Proin velit nisi, finibus vitae viverra et, blandit sit amet odio. Donec sodales accumsan eros, pellentesque dictum ipsum gravida ac. </div>
+             <div class="col-fluid">
+                 <h3>Under construction</h3>
+
+             </div>
         </div>
-    <div>
+    </div>
 </section>
 
 
 
-<section>
-        <div class="container experience">
-            <div class="row-fluid">
-                <div class="col-fluid"><center>
-                <center><h1>Experience</h1></center>
-                </div>
-                <div class="col-fluid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas augue libero, lacinia sed consectetur nec, tempus mattis lorem. Vestibulum posuere nisl lacinia massa tempus, auctor auctor tellus egestas. Fusce dignissim tortor elit, vel lobortis nulla ultrices sit amet. Quisque dui nunc, vestibulum ut tellus at, interdum posuere leo. In posuere ex ut pharetra vestibulum. Pellentesque ut semper erat. Nam sit amet augue justo. Sed eu mauris vitae erat finibus bibendum. Sed at diam et tellus fermentum aliquam non sed diam. Donec faucibus molestie rutrum. Proin velit nisi, finibus vitae viverra et, blandit sit amet odio. Donec sodales accumsan eros, pellentesque dictum ipsum gravida ac. </div>
-            </div>
-        <div>
- </section>
 
 
 
 
 
+<!---
 <footer class="footer">
 
     <p><b>Made by Parth Thakkar ©</b></p>
     
 </footer>
 </html>
+-->
