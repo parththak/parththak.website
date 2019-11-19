@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
 </head>
-<nav class="navbar navbar-expand-lg navbar-light navstyle" style="margin-bottom:2%;">
+<nav class="navbar navbar-expand-lg navbar-light navstyle" style="margin-bottom:2%; padding-left:1%">
        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color:white;">
                 <span class="navbar-toggler-icon"></span>
@@ -64,17 +64,24 @@
             <img src="./assets/scroll.svg" width="60" height="60" >
         </button>
     </div>
-</section> --->
+</section> 
+<div class="nav flex-column nav-pills nav-tabs black" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <a class="nav-link active nav-text black" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+    <a class="nav-link nav-text black" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Experience</a>
+    <a class="nav-link nax-text black" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Projects</a>
+</div>
+--->
 
 <section class="name">
     <center><img  class="profile"  src="./assets/profile.jpg"></center>
     <h1 class="profile-title"> Hi, I'm Parth</h1>
-    <p1 class="profile-description"> Software Engineer.</p1> <br>
-    <p1 class="profile-description"> CS at University of Toronto.</p1> <br>
+    <p1 class="profile-description"> 4th year CS student at University of Toronto.</p1> <br>
+    <p1 class="profile-description"> Passionate about: Front-end, Back-end and Cloud technologies.</p1> <br>
+
 
 
     <div class="wrapper-exp">
-        <button class="scroll-button-exp" type= "button" id="exp-scroller">
+        <button class="scroll-button-exp bounce" type= "button" id="exp-scroller">
                 <img src="./assets/scroll.svg" width="60" height="60" >
             </button>
     </div>
@@ -83,10 +90,11 @@
 
 </section>
 
+
 <section>
     <div class="container experience">
         <div class="row-fluid">
-            <div class="col-fluid"><center>
+            <div class="col-fluid">
                 <center><h1>Experience</h1></center>
             </div>
         </div>
@@ -141,7 +149,7 @@
 <section>
     <div class="container projects">
         <div class="row-fluid">
-            <div class="col-fluid"><center>
+            <div class="col-fluid">
                 <center><h1>Projects</h1></center>
                 </div>
              <div class="col-fluid">
