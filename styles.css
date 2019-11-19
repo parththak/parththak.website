@@ -86,12 +86,13 @@ footer {
 .profile-title {
     font-family: Rockwell;
     font-size:60px;
-    
+    font-size:auto;
 }
 
 .profile-description {
     font-family: Rockwell;
     font-size: 20px;
+    font-size:auto;
 }
 
 .scroll-button-exp{
