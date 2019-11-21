@@ -179,10 +179,6 @@ button:focus {
     color:black
 }
 
-.nav-scroll > a::selection {
-    background: black !important;
-}
-
 .nav-scroll:hover {
     background: black;
 }
