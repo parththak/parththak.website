@@ -5,6 +5,8 @@ $(document).ready(function(){
             scrollTop: $(".exp-section").offset().top},
             100);
     });
+
+
 });
 
 
