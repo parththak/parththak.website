@@ -111,15 +111,19 @@ footer {
 .scroll-button {
     width:60px ;
     height:60px ;
-    bottom:0;
+    bottom:0
 }
 .scroll-button:hover {
     cursor: pointer;
     opacity: 0.5;
+    
 }
 
 .scroll-button-wrapper {
     margin-top:20vh;
+    position: absolute;
+    left:48%;
+    bottom:0
 }
 
 
@@ -144,20 +148,15 @@ button:focus {
     outline:none;
 }
 
-.wrapper-exp {
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    bottom:0
-}
 
 .name {
     background-color: #f3f9fb;
     text-align: center;
-    min-height:100vh;
-    min-width:100vw;
+    min-height:91vh;
     height:auto;
-    width:auto;
+    display: table;
+    width:100vw;
+    position: relative;
 }
 
 .nav-name {
@@ -171,7 +170,10 @@ button:focus {
     right: 5%;
     position: fixed;
     border:2px solid black ;
-    border-radius:5%
+    border-radius:5%;
+    text-align: left;
+    scroll-behavior: smooth;
+
 }
 
 .nav-scroll > a {
