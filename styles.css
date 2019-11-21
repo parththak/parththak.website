@@ -125,10 +125,9 @@ html,body {
 }
 
 .scroll-button-wrapper {
-    margin-top:20vh;
     position: absolute;
     left: 48%;
-    bottom:0
+    bottom:1%
 }
 
 
