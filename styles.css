@@ -15,7 +15,8 @@ html,body {
     position: sticky;
     width: 100%;
     bottom:0;
-    height: 6vh;
+    min-height: 5vh;
+    height:auto;
     text-align: center;
     background-color: black;
     color: white;
@@ -43,6 +44,7 @@ html,body {
     height: auto;
     min-height: 100vh;
     margin-top: 2%; 
+    background-color: #f3f9fb
 }
 
 .experience { 
@@ -53,13 +55,14 @@ html,body {
     overflow: hidden;
     min-height: 100vh;   
     margin-top: 2%; 
+    background-color: #f3f9fb
 }
 
 
 .navstyle {
     background-color: black; 
     box-shadow: 2px 5px 4px #888888; 
-    padding: 0%
+    padding: auto
 }
 
 .description {
@@ -158,11 +161,13 @@ button:focus {
     display: table;
     width:100vw;
     position: relative;
+    background-color: #f3f9fb
 }
 
 .nav-name {
     color: white; 
-    font-size: 175%;
+    font-size: 200%;
+    margin: auto;
 }
 
 .nav-scroll {
