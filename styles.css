@@ -111,7 +111,9 @@ footer {
 .scroll-button {
     width:60px ;
     height:60px ;
-    bottom:0
+    bottom:0;
+    align-content: center;
+
 }
 .scroll-button:hover {
     cursor: pointer;
@@ -122,7 +124,7 @@ footer {
 .scroll-button-wrapper {
     margin-top:20vh;
     position: absolute;
-    left:48%;
+    left: 48%;
     bottom:0
 }
 
@@ -152,8 +154,7 @@ button:focus {
 .name {
     background-color: #f3f9fb;
     text-align: center;
-    min-height:91vh;
-    height:auto;
+    height:91vh;
     display: table;
     width:100vw;
     position: relative;
@@ -173,7 +174,6 @@ button:focus {
     border-radius:5%;
     text-align: left;
     scroll-behavior: smooth;
-
 }
 
 .nav-scroll > a {
