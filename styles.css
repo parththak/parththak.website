@@ -84,7 +84,9 @@ html,body {
     height:auto;
     margin-top: 5%;
     margin-bottom:1%;
-    border:2px solid black
+    border:2px solid black;
+    text-align: center;
+
 }
 
 .profile-title {
@@ -197,4 +199,7 @@ button:focus {
 
 .exp-block {
     margin-left:100px
+}
+.heading {
+    text-align: center;
 }
