@@ -78,8 +78,8 @@ html,body {
 .profile {
     border-radius: 50%;
     object-fit: fill;
-    max-width: 350px;
-    max-height: 250px;
+    max-width: 30vw;
+    max-height: 25vh;
     width: auto;
     height:auto;
     margin-top: 5%;
@@ -91,13 +91,13 @@ html,body {
 
 .profile-title {
     font-family: Rockwell;
-    font-size:60px;
+    font-size:5vh;
     font-size:auto;
 }
 
 .profile-description {
     font-family: Rockwell;
-    font-size: 20px;
+    font-size: 2vh;
     font-size:auto;
 }
 
@@ -114,8 +114,8 @@ html,body {
 }
 
 .scroll-button {
-    width:60px ;
-    height:60px ;
+    width:10vh ;
+    height:7vh ;
     bottom:0;
     align-content: center;
 
@@ -128,8 +128,8 @@ html,body {
 
 .scroll-button-wrapper {
     position: absolute;
-    left: 48%;
-    bottom:1%
+    left: 48vw;
+    bottom:1vh
 }
 
 
